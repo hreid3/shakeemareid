@@ -1,0 +1,56 @@
+body {
+  font-family: 'hoefler_textregular';
+}
+
+.navbar-header {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.navbar-brand {
+  float: none;
+}
+
+.navbar {
+  background: none;
+  border-bottom: 0;
+  box-shadow: none;
+}
+
+.nav {
+  font-family: 'hoefler_textregular';
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nav a {
+  color: #000;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+footer {
+  height: 185px;
+  background: #e1e1e1;
+  display: flex;
+  align-items: center;
+  margin-top: 75px;
+}
+.instagram-header {
+  text-transform: uppercase;
+}
+
+.navbar-brand > img {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.moved-nav-header {
+  position: relative;
+  top: -68px;
+  left: 42px;
+}

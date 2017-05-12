@@ -1,0 +1,59 @@
+
+.hp-image {
+  width: 100%
+}
+
+.topbox {
+  width: 80%;
+  background: #c59395;
+  height: 100px;
+  opacity: .2;
+}
+
+.bottombox {
+  width: 100%;
+  background: #c59395;
+  height: 77px;
+  opacity: .3;
+  position: relative;
+  top: -33px;
+  left: 68px;
+}
+
+.collection-title {
+  position: absolute;
+  top: 7px;
+  left: 132px;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+.summer-text {
+  margin-left: 50px;
+}
+
+.hp-backdrop {
+  margin-top: 20%;
+  position: relative;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.collection-season {
+  font-size: 24px;
+  top: -16px;
+}
+
+.collections-cta {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 17px;
+}
+.collections-cta a, .collections-cta a:hover {
+  color: #000;
+  cursor: pointer;
+}
