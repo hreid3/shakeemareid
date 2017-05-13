@@ -1,0 +1,39 @@
+
+.collection {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid rgb(242, 210, 221);
+    padding: 50px 0;
+}
+
+.collection .season {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.collection .year sup {
+    font-size: 20px;
+    left: 8px;
+}
+
+.collection .index-slide img {
+    width: 100%;
+}
+
+.collection .title {
+    font-size: 26px;
+    margin-top: 9px;
+}
+
+.collection .title-label {
+    margin-right: 5px;
+}
+
+.collection .description {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.2em;
+    margin-top: 15px;
+}

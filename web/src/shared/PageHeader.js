@@ -17,7 +17,7 @@ export const PageHeader = props => (
             </Navbar.Header>
             <Nav pullRight className="moved-nav-header">
                 <NavItem eventKey={1}><Link to="/">Home</Link></NavItem>
-                <NavItem eventKey={2}><Link to="/">Collections</Link></NavItem>
+                <NavItem eventKey={2}><Link to="/collections">Collections</Link></NavItem>
                 <NavItem eventKey={3}><Link to="/apparel">Apparel</Link></NavItem>
                 <NavItem eventKey={4}><Link to="/about-shakeema-reid">About</Link></NavItem>
                 <NavItem eventKey={5}><Link to="/">Instagram</Link></NavItem>

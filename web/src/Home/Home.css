@@ -56,4 +56,5 @@
 .collections-cta a, .collections-cta a:hover {
   color: #000;
   cursor: pointer;
+  border-bottom: 1px solid RGB(242, 210, 221);
 }
