@@ -1,6 +1,9 @@
 body {
   font-family: 'hoefler_textregular';
 }
+header {
+  margin-bottom: -74px;
+}
 
 .navbar-header {
   width: 100%;
@@ -52,5 +55,12 @@ footer {
 .moved-nav-header {
   position: relative;
   top: -68px;
-  left: 42px;
+  /*left: 42px;*/
+}
+
+.footer-content > div {
+  padding: 2px 2px;
+}
+.instagram-images img {
+  padding: 0px 1px;
 }

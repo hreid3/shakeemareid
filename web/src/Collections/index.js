@@ -7,6 +7,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './styles.css'
 import { seasons } from './seasons-data'
+
 // import { Moment } from 'moment'
 
 export const Collections = props => (
@@ -29,13 +30,13 @@ const CollectionIndex = props => {
     return (
         <Row className={`collection ${season.code} ${year}`}>
             <Col md={6} className="meta">
-                <span className="season">{season.title}</span>
+                <span className="season" dangerouslySetInnerHTML={{__html: season.title}} />
                 <span className="year"><sup>{(year - 2000) + "/" + (year - 1999)}</sup></span>
                 <div className="title">
                     <span className="title-label">TITLE:</span>
-                    <span className="title-value">{title}</span>
+                    <span className="title-value" dangerouslySetInnerHTML={{__html: title}} />
                 </div>
-                <div className="description">{shortDescription}</div>
+                <div className="description"  dangerouslySetInnerHTML={{__html: shortDescription}} />
                 <div className="collections-cta">
                     <Link className="" to={`/collections/${key}`}>View Collection</Link>
                 </div>

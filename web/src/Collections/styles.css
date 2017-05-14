@@ -1,10 +1,13 @@
-
 .collection {
     text-align: center;
     display: flex;
     align-items: center;
-    border-top: 2px solid rgb(242, 210, 221);
+    border-top: 1px solid rgba(242, 210, 221, 1);
     padding: 50px 0;
+}
+
+.collection:first-child {
+    border: 0;
 }
 
 .collection .season {
@@ -17,7 +20,8 @@
     left: 8px;
 }
 
-.collection .index-slide img {
+.collection .index-slide img,
+.single-collection .index-slide img {
     width: 100%;
 }
 
@@ -36,4 +40,25 @@
     font-size: 18px;
     line-height: 1.2em;
     margin-top: 15px;
+}
+
+.single-collection {
+    display: flex;
+}
+.single-collection > div {
+    flex: 1;
+}
+
+.single-collection .left {
+    text-align: center;
+}
+.single-collection .carousel-slide {
+    height: 100vh !important;
+    margin: 0 auto;
+    max-width: inherit !important;
+}
+.carousel-control.right,
+.carousel-control.left {
+    background: 0;
+    background-image: none !important;
 }

@@ -22,7 +22,7 @@ export class Home extends Component {
                                     <div className="summer-text">Summer <sup className="collection-season">17-18</sup></div>
                                 </div>
                             </div>
-                            <div className="collections-cta"><Link to="/spring-summer-2017">View Collection</Link></div>
+                            <div className="collections-cta"><Link to="/collections/SPRING_RTW_2017">View Collection</Link></div>
                         </Col>
                     </Row>
                 </Grid>
