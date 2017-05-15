@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'hoefler_textregular';
-    src: local('./hoefler_texthoelfler_text/hoefler_text-webfont.woff2') format('woff2'),
-    local('./hoelfler_text/hoefler_text-webfont.woff') format('woff');
+    src:
+        /*local('./hoelfler_text/hoeflertext-regular-webfont.woff2') format('woff2'),*/
+        /*local('./hoelfler_text/hoeflertext-regular-webfont.woff') format('woff'),*/
+        url('./hoefler_text/HoeflerText-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }

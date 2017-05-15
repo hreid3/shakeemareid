@@ -1,6 +1,21 @@
 
 export const seasons =
 {
+    'SPRING_RTW_2017': {
+        season: {
+            code: 'SPRING_RTW',
+            title: 'Spring<br/> Summer'
+        },
+        year: 2017,
+        title: 'Viejo Nuevo',
+        shortDescription: "Inspired by Havana's beautiful city,<br/>this Spring / Summer collection is filled with rich colors, fun prints, and<br/>beautiful shapes.",
+        slides: [
+            'viejonuevoPAGE2.jpg',
+            'viejonuevoPAGE3.jpg',
+            'viejonuevoPAGE4.jpg',
+            'viejonuevoPAGE5.jpg',
+        ],
+    },
     'PRE-SPRING_2017': {
         season: {
             code: 'PRE-SPRING',
@@ -34,21 +49,6 @@ export const seasons =
             'serenePAGE7.jpg',
             'serenePAGE8.jpg',
             'serenePAGE9.jpg',
-        ],
-    },
-    'SPRING_RTW_2017': {
-        season: {
-            code: 'SPRING_RTW',
-            title: 'Spring<br/> Summer'
-        },
-        year: 2017,
-        title: 'Viejo Nuevo',
-        shortDescription: "Inspired by Havana's beautiful city,<br/>this Spring / Summer collection is filled with rich colors, fun prints, and<br/>beautiful shapes.",
-        slides: [
-            'viejonuevoPAGE2.jpg',
-            'viejonuevoPAGE3.jpg',
-            'viejonuevoPAGE4.jpg',
-            'viejonuevoPAGE5.jpg',
         ],
     },
 }
