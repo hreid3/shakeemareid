@@ -14,10 +14,10 @@ export class About extends Component {
                         </Col>
                         <Col md={6}>
                             <div className="about-content">
-                                <div>About</div>
+                                <div>Contact</div>
                                 <div className="about-designer-indent">The</div>
                                 <div>Designer</div>
-                                <div className="coming-soon">...Coming Soon</div>
+                                <div className="coming-soon contact-designer">Email: <a href="mailto:Shakeema_reid@fitnyc.edu">Shakeema_reid@fitnyc.edu</a></div>
                             </div>
                         </Col>
                     </Row>

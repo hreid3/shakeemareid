@@ -21,7 +21,7 @@ ReactDOM.render (
             <div>
                 <PageHeader />
                 <Route exact path="/" component={Home} />
-                <Route exact path="/about-shakeema-reid" component={About} />
+                <Route exact path="/contact-shakeema-reid" component={About} />
                 <Route exact path="/apparel" component={Apparel} />
                 <Route exact path="/collections/:season" component={Collection} />
                 <Route exact path="/collections" component={Collections} />

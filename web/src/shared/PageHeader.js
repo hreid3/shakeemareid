@@ -20,8 +20,8 @@ export const PageHeader = props => (
                     {/*<NavItem eventKey={1}><Link to="/">Home</Link></NavItem>*/}
                     <NavItem eventKey={2}><Link to="/collections">Collections</Link></NavItem>
                     <NavItem eventKey={3}><Link to="/apparel">Apparel</Link></NavItem>
-                    <NavItem eventKey={4}><Link to="/about-shakeema-reid">About</Link></NavItem>
-                    <NavItem href="http://zh.ink361.com/app/users/3125848461/shakeemareiddesigns/photos" target="_blank">Instagram</NavItem>
+                    <NavItem eventKey={4}><Link to="/contact-shakeema-reid">Contact</Link></NavItem>
+                    <NavItem href="https://www.instagram.com/shakeemareiddesigns/?hl=en" target="_blank">Instagram</NavItem>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
